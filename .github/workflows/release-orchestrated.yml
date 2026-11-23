@@ -36,7 +36,7 @@ jobs:
           token: ${{ secrets.RELEASE_TOKEN }}
 
       - name: Set up Python and pontos
-        uses: greenbone/actions/setup-pontos@d6d4c9500cb4e83f8a516ec1d40b04bcc720bd22 # v3.36.23
+        uses: greenbone/actions/setup-pontos@c28cd1740972049d898f7ea2cdd871a94bd9bd77 # v3.36.24
 
       # setup-pontos currently leaves Python 3.10 first on PATH, while the
       # release-version validator uses the Python 3.11+ standard tomllib.
