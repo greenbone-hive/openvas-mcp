@@ -29,7 +29,7 @@ jobs:
         run: python3 scripts/render_tool_reference.py --check
 
       - name: Install uv
-        uses: greenbone/actions/uv@d6d4c9500cb4e83f8a516ec1d40b04bcc720bd22 # v3.36.23
+        uses: greenbone/actions/uv@c28cd1740972049d898f7ea2cdd871a94bd9bd77 # v3.36.24
         with:
           python-version: "3.13"
           working-directory: docs
